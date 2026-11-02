@@ -1,6 +1,6 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.3",
+  "versionCode": 4,
+  "versionName": "1.0.4",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1. 大小球走水判定修复 2. 明细逐场分割线 3. 半场比分并行预热 4. 远程更新"
+  "notes": "test"
 }
