@@ -1,6 +1,6 @@
 {
-  "versionCode": 6,
-  "versionName": "1.0.6",
+  "versionCode": 7,
+  "versionName": "1.0.7",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1. 北单「未完」过滤修复：改期/延期场次不再挂在未完里（500 status=6）\n2. 比赛卡片显示 改期 标签（原来只显示 XX'）\n3. 状态解析改为读 tr status 属性，异常状态单独归类"
+  "notes": "1. 右上角新增「更新」按钮（投注左侧）：点一下强制查最新版本\n2. 没有新版本时提示已是最新，并同时刷新当前比赛列表\n3. 有新版本弹更新框，和启动自动检查走同一链路"
 }
