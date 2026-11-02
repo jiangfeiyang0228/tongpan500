@@ -2,5 +2,5 @@
   "versionCode": 9,
   "versionName": "1.0.9",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "安装链路测试"
+  "notes": "修复：更新下载完成后安装界面瞬间消失\n1. 清单补 REQUEST_INSTALL_PACKAGES（系统日志原话：Requesting uid needs to declare permission）\n2. 安装前先自检 APK 完整性，损坏直接提示重下，不再静默消失\n3. 未授权时自动跳到「安装未知应用」页并给出明确提示\n4. 计算 canRequestPackageInstalls 结果写日志，便于排查"
 }
