@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "1.0.7",
+  "versionCode": 8,
+  "versionName": "1.0.8",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1. 右上角新增「更新」按钮（投注左侧）：点一下强制查最新版本\n2. 没有新版本时提示已是最新，并同时刷新当前比赛列表\n3. 有新版本弹更新框，和启动自动检查走同一链路"
+  "notes": "1. 半场比分放大：10sp 棕灰 -> 12.5sp 加粗浅灰（明细行 / 谱系明细都生效）\n2. 明细排版放松：卡片上下留白 5->8dp、卡片间距 4->6dp、队名行上边距 3->6dp\n3. 队名字号 12->13sp，比分 12.5->13.5sp、列宽 48->54dp\n4. 'Vs' 从 6sp 修正为 10sp（原来误用了圆角半径的常量）\n5. 结果列 11.5->12sp、宽 26->30dp"
 }
