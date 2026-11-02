@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "1.0.7",
+  "versionCode": 6,
+  "versionName": "1.0.6",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "临时测试弹窗"
+  "notes": "1. 北单「未完」过滤修复：改期/延期场次不再挂在未完里（500 status=6）\n2. 比赛卡片显示 改期 标签（原来只显示 XX'）\n3. 状态解析改为读 tr status 属性，异常状态单独归类"
 }
