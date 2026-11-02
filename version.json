@@ -1,6 +1,6 @@
 {
-  "versionCode": 4,
-  "versionName": "1.0.4",
+  "versionCode": 5,
+  "versionName": "1.0.5",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "test"
+  "notes": "修复更新源顺序：raw 优先保证实时，CDN 兜底"
 }
