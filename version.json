@@ -1,6 +1,6 @@
 {
-  "versionCode": 13,
-  "versionName": "1.0.13",
+  "versionCode": 14,
+  "versionName": "1.0.14",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1. 模拟投注按卡片区分：亚盘卡只留亚盘、大小球卡只留大小球 2. 欧盘卡的模拟投注位置改为亚盘同盘胜率（赢/走/输 场次+百分比+初盘盘口）"
+  "notes": "1. 去掉「模拟投注 · 1 单位」标题行 2. 欧盘卡的胜率改为「欧盘同盘 · 亚盘判定」：先按欧赔终盘相似挑比赛，再用这些比赛的亚盘结果（赢盘/走盘/输盘）统计"
 }
