@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "1.0.10",
+  "versionCode": 11,
+  "versionName": "1.0.11",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1. 比赛明细增加红牌显示：主队红牌贴队名左侧、客队红牌贴队名右侧（红色小牌，无红牌不占位）\n2. 红牌和半场比分同一次请求解析，不额外发网络\n3. 半场比分提速：去掉 cache-buster 吃 CDN 缓存、重试 3 次->2 次、间隔 400->150ms\n4. 新增磁盘缓存（第二次开 app 0 请求秒出）\n5. 队列分优先级：用户点开的那一档优先，预热排后面\n6. 修复红牌先占请求导致半场比分永久 半-- 的问题\n7. 识别 EdgeOne 硬封页并递增冷却，不再越封越久"
+  "notes": "1. 新增「欧盘 · 1X2」历史同盘模块（初盘→终盘欧赔、同终盘最近 N 场胜平负统计、点开看明细） 2. 欧赔数据走 live.500.com/json/odds.php，带磁盘缓存"
 }
