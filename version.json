@@ -1,6 +1,6 @@
 {
-  "versionCode": 11,
-  "versionName": "1.0.11",
+  "versionCode": 12,
+  "versionName": "1.0.12",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1. 新增「欧盘 · 1X2」历史同盘模块（初盘→终盘欧赔、同终盘最近 N 场胜平负统计、点开看明细） 2. 欧赔数据走 live.500.com/json/odds.php，带磁盘缓存"
+  "notes": "1. 亚盘/大小球/欧盘 拆成三张独立卡片 2. 新增「盘口公司（分开设置）」：亚盘、大小球、欧盘各自选公司，自由组合（默认 平博/澳门/Bet365） 3. 欧盘模块版式对齐亚盘：场次/胜/平/负 + 明细 + 按主胜赔率分档的欧赔谱系"
 }
