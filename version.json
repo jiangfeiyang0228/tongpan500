@@ -1,6 +1,6 @@
 {
-  "versionCode": 12,
-  "versionName": "1.0.12",
+  "versionCode": 13,
+  "versionName": "1.0.13",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1. 亚盘/大小球/欧盘 拆成三张独立卡片 2. 新增「盘口公司（分开设置）」：亚盘、大小球、欧盘各自选公司，自由组合（默认 平博/澳门/Bet365） 3. 欧盘模块版式对齐亚盘：场次/胜/平/负 + 明细 + 按主胜赔率分档的欧赔谱系"
+  "notes": "1. 模拟投注按卡片区分：亚盘卡只留亚盘、大小球卡只留大小球 2. 欧盘卡的模拟投注位置改为亚盘同盘胜率（赢/走/输 场次+百分比+初盘盘口）"
 }
