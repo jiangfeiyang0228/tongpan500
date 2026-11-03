@@ -1,6 +1,6 @@
 {
-  "versionCode": 18,
-  "versionName": "1.0.18",
+  "versionCode": 19,
+  "versionName": "1.0.19",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "欧盘改用 500 官网的欧赔同盘（ouzhi_sameajax：fixtureid+id 双参数），明细与官网逐场一致；页面显示官网总场次，统计取前 50 场"
+  "notes": "欧盘明细里的亚盘判定改成彩色胶囊：赢盘红 / 输盘蓝 / 走盘灰，11.5sp 加粗带底色，一眼能分辨"
 }
