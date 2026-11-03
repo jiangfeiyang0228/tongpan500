@@ -1,6 +1,6 @@
 {
-  "versionCode": 17,
-  "versionName": "1.0.17",
+  "versionCode": 18,
+  "versionName": "1.0.18",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "欧盘改为只统计前 50 场初盘同盘，不再按终盘欧赔相似度筛；去掉逐场欧赔请求（快很多），明细第二行改显示该场亚盘判定"
+  "notes": "欧盘改用 500 官网的欧赔同盘（ouzhi_sameajax：fixtureid+id 双参数），明细与官网逐场一致；页面显示官网总场次，统计取前 50 场"
 }
