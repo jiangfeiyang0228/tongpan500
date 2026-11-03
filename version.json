@@ -1,6 +1,6 @@
 {
-  "versionCode": 20,
-  "versionName": "1.0.20",
+  "versionCode": 21,
+  "versionName": "1.0.21",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "欧盘明细的亚盘判定改用亚盘即时盘（不是初盘）：平/半→半球 就按半球判，整数盘的走水不再凭空出现"
+  "notes": "欧盘同初盘下面增加「主队升水 / 主队降水」分类（终盘主胜 vs 初盘主胜），同水场次也单列，口径与亚盘/大小球一致"
 }
