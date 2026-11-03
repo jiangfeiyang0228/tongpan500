@@ -1,6 +1,6 @@
 {
-  "versionCode": 19,
-  "versionName": "1.0.19",
+  "versionCode": 20,
+  "versionName": "1.0.20",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "欧盘明细里的亚盘判定改成彩色胶囊：赢盘红 / 输盘蓝 / 走盘灰，11.5sp 加粗带底色，一眼能分辨"
+  "notes": "欧盘明细的亚盘判定改用亚盘即时盘（不是初盘）：平/半→半球 就按半球判，整数盘的走水不再凭空出现"
 }
