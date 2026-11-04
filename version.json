@@ -1,6 +1,6 @@
 {
-  "versionCode": 25,
-  "versionName": "1.0.25",
+  "versionCode": 27,
+  "versionName": "1.0.27",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "半场比分/红牌抓取稳定性：定位 detail.php 60 秒窗口限流（约10条触发567），改为滑动窗口限流+单线程队列+磁盘缓存，撞 567 自动冷却重试，不再整批空数据"
+  "notes": "半场比分/红牌提速：打开详情先按日期批量拉完场页(wanchang.php)一次解析半场+红牌，0-25秒整批出齐；detail.php 逐条请求仅作兜底；完场页落盘缓存，二次打开秒出"
 }
