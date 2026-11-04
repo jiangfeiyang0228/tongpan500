@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "1.0.22",
+  "versionCode": 23,
+  "versionName": "1.0.23",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "欧盘卡的同初盘 / 主队升水 / 主队降水 / 同水 每一行都能点开看该组的比赛明细（含亚盘判定胶囊）"
+  "notes": "半场比分/红牌抓取稳定性：detail.php 超时从 20s/25s 收到 6s/9s，超时不再重试堵线程；被 EdgeOne 硬封时等冷却后自动补抓一次；4 路并发之间加 120ms 间隔、冷却等级改为逐级回落"
 }
