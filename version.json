@@ -1,6 +1,6 @@
 {
-  "versionCode": 31,
-  "versionName": "1.0.31",
+  "versionCode": 34,
+  "versionName": "1.0.34",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "欧盘明细补齐半场比分与红牌标识：复用亚盘/大小球明细的完场页快路回填，红牌嵌队名外侧，样式与亚盘明细一致"
+  "notes": "修列表页偶发被硬封：完场页每面板预热上限24→10天，跨日探测改为只读缓存不补拉，单场详情网络请求量从180+页降到约30页；列表/半场速度不受影响"
 }
