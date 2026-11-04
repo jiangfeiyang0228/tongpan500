@@ -1,6 +1,6 @@
 {
-  "versionCode": 34,
-  "versionName": "1.0.34",
+  "versionCode": 37,
+  "versionName": "1.0.37",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修列表页偶发被硬封：完场页每面板预热上限24→10天，跨日探测改为只读缓存不补拉，单场详情网络请求量从180+页降到约30页；列表/半场速度不受影响"
+  "notes": "半场/红牌提速：完场页归档日可能为开球日 d-1/d+1/d-2（实测两种都有），探测扩为4天且按需拉取+磁盘缓存；50行同盘55秒全部出齐，仅极老比赛(2013)走慢路兜底；0封禁"
 }
