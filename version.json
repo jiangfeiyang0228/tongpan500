@@ -1,6 +1,6 @@
 {
-  "versionCode": 27,
-  "versionName": "1.0.27",
+  "versionCode": 29,
+  "versionName": "1.0.29",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "半场比分/红牌提速：打开详情先按日期批量拉完场页(wanchang.php)一次解析半场+红牌，0-25秒整批出齐；detail.php 逐条请求仅作兜底；完场页落盘缓存，二次打开秒出"
+  "notes": "半场比分提速优化：完场页按北京开球日组织，跨零点场次自动前后一天找行；打开详情整批半场/红牌 0-25 秒出齐，二次打开秒出；detail.php 仅兜底"
 }
