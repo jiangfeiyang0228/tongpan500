@@ -1,6 +1,6 @@
 {
-  "versionCode": 41,
-  "versionName": "1.0.41",
+  "versionCode": 43,
+  "versionName": "1.0.43",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "同变动明细提速：完场页预热恢复覆盖全部去重日期(≤50天/面板)，展开同初盘/同变动/同盘口任意明细全部命中缓存即时显示；keep-alive 复用保持"
+  "notes": "连续看多场后抓不到半场/红牌的修复：完场页新增滑动窗口限流60页/分钟(此前140ms=430页/分钟,连开5场450页触发EdgeOne总量惩罚)，磁盘日期页缓存24→64个按最老淘汰避免重复拉取，内存LRU 12→24"
 }
