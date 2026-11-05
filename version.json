@@ -1,6 +1,6 @@
 {
-  "versionCode": 64,
-  "versionName": "1.0.64",
+  "versionCode": 65,
+  "versionName": "1.0.65",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复未完场盘口不显示：采集范围从只完场扩到全部有效状态行(完场/未完/进行中)，未完场用yazhiajax/daxiaoajax即时盘；含未完场的列表缓存TTL压到45s、水位60s TTL、手动更新force整批重抓；改期/取消跳过"
+  "notes": "完场列表水位标注输赢：亚盘按settleHandicap(比分,让球盘)、大小球按settleTotal(比分,总进球盘)判定，赢方红色加粗+淡红底、输方蓝色、走盘灰色；数字完整不截断，未完场不标注"
 }
