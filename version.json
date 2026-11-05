@@ -1,6 +1,6 @@
 {
-  "versionCode": 51,
-  "versionName": "1.0.51",
+  "versionCode": 56,
+  "versionName": "1.0.56",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "完场列表红牌改为真正的红色：红牌块 ▌ 用 Spannable 单独着色（0xFFE23B3B 与详情页一致），队名保持原色"
+  "notes": "完场列表半场比分显示(1.0.53-55渲染bug修复:高度MISMATCH_PARENT+提亮颜色)"
 }
