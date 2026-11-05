@@ -1,6 +1,6 @@
 {
-  "versionCode": 39,
-  "versionName": "1.0.39",
+  "versionCode": 41,
+  "versionName": "1.0.41",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "手机端半场/红牌提速：完场页请求启用 keep-alive 连接复用（省每页 TLS 握手），发车间隔 250ms→140ms；模拟器实测 154 页中位 147ms，全部快路 23 秒出齐"
+  "notes": "同变动明细提速：完场页预热恢复覆盖全部去重日期(≤50天/面板)，展开同初盘/同变动/同盘口任意明细全部命中缓存即时显示；keep-alive 复用保持"
 }
