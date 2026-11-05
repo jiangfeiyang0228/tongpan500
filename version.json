@@ -1,6 +1,6 @@
 {
-  "versionCode": 56,
-  "versionName": "1.0.56",
+  "versionCode": 60,
+  "versionName": "1.0.60",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "完场列表半场比分显示(1.0.53-55渲染bug修复:高度MISMATCH_PARENT+提亮颜色)"
+  "notes": "完场列表排版修复：半场比分移到比分右侧紧凑显示，字号12sp提亮颜色；修复半场列导致的行错位"
 }
