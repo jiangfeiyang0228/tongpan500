@@ -1,6 +1,6 @@
 {
-  "versionCode": 61,
-  "versionName": "1.0.61",
+  "versionCode": 62,
+  "versionName": "1.0.62",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "完场列表排版与半场比分：比分右侧紧凑显示半场(12sp提亮)，修复上半场列导致的行错位与寄存器校验崩溃"
+  "notes": "完场列表重排版+补真实亚盘赔率：水位三格等宽对齐、半场比分并入比分列，完场行从yazhiajax补终盘主水/客水(79场补76场)，跟随亚盘公司设置"
 }
