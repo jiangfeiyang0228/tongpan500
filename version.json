@@ -1,6 +1,6 @@
 {
-  "versionCode": 65,
-  "versionName": "1.0.65",
+  "versionCode": 66,
+  "versionName": "1.0.66",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "完场列表水位标注输赢：亚盘按settleHandicap(比分,让球盘)、大小球按settleTotal(比分,总进球盘)判定，赢方红色加粗+淡红底、输方蓝色、走盘灰色；数字完整不截断，未完场不标注"
+  "notes": "半场比分胶囊字号调小：10f->8.5f，padding收窄、圆角减小，作为比分区从属信息不抢全场比分视觉；其余不变"
 }
