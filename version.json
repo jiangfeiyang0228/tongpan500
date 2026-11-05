@@ -1,6 +1,6 @@
 {
-  "versionCode": 49,
-  "versionName": "1.0.49",
+  "versionCode": 51,
+  "versionName": "1.0.51",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "完场列表增加红牌显示：北单完场行解析主客队红牌数（比分列前后定位主客），有红牌的队名前贴 ▌ 红块标记（Bridge.redName，最多3块）；竞彩列表无红牌数据不受影响"
+  "notes": "完场列表红牌改为真正的红色：红牌块 ▌ 用 Spannable 单独着色（0xFFE23B3B 与详情页一致），队名保持原色"
 }
