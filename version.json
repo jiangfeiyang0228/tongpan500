@@ -1,6 +1,6 @@
 {
-  "versionCode": 43,
-  "versionName": "1.0.43",
+  "versionCode": 49,
+  "versionName": "1.0.49",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "连续看多场后抓不到半场/红牌的修复：完场页新增滑动窗口限流60页/分钟(此前140ms=430页/分钟,连开5场450页触发EdgeOne总量惩罚)，磁盘日期页缓存24→64个按最老淘汰避免重复拉取，内存LRU 12→24"
+  "notes": "完场列表增加红牌显示：北单完场行解析主客队红牌数（比分列前后定位主客），有红牌的队名前贴 ▌ 红块标记（Bridge.redName，最多3块）；竞彩列表无红牌数据不受影响"
 }
