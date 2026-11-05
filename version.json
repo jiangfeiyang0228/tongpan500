@@ -1,6 +1,6 @@
 {
-  "versionCode": 69,
-  "versionName": "1.0.69",
+  "versionCode": 70,
+  "versionName": "1.0.70",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "半场比分胶囊上移加大间隙：topMargin -11dp->-17dp，scoreRow有半场时顶部padding 8->18dp容纳上浮胶囊，胶囊底边不再压到全场比分；全场比分仍与队名严格平齐，未完场不留白"
+  "notes": "全场比分与队名严格居中平齐：队名/比分区统一固定26dp行高+全部CENTER_VERTICAL，吸收汉字与加粗数字的字体度量差异(bounds中心399/398.5/399)；半场胶囊按固定行高重算上浮不遮挡"
 }
