@@ -1,6 +1,6 @@
 {
-  "versionCode": 67,
-  "versionName": "1.0.67",
+  "versionCode": 68,
+  "versionName": "1.0.68",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "半场比分改到全场比分正上方竖向叠放；比分块改固定宽度，全场比分MATCH_PARENT严格居中，半场胶囊WRAP_CONTENT居中浮于上方、不挤压全场比分定位，主客队间距稳定"
+  "notes": "全场比分与双方队名严格平齐：比分块改FrameLayout叠加、宽度回退WRAP_CONTENT，全场比分CENTER决定中线与队名CENTER_VERTICAL平齐；半场胶囊TOP|CENTER_HORIZONTAL上浮叠在比分正上方，不占布局高度、不挤压全场比分"
 }
