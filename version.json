@@ -1,6 +1,6 @@
 {
-  "versionCode": 70,
-  "versionName": "1.0.70",
+  "versionCode": 71,
+  "versionName": "1.0.71",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "全场比分与队名严格居中平齐：队名/比分区统一固定26dp行高+全部CENTER_VERTICAL，吸收汉字与加粗数字的字体度量差异(bounds中心399/398.5/399)；半场胶囊按固定行高重算上浮不遮挡"
+  "notes": "全场比分与队名严格居中平齐（按墨迹质心补偿数字字体上浮）；比赛明细新增点球数量显示：点球大战比分（完场页附加行，零请求）+ 常规点球进球（detail.php事件表3.gif，复用已有请求），有点球才显示不占位"
 }
