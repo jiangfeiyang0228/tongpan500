@@ -1,6 +1,6 @@
 {
-  "versionCode": 62,
-  "versionName": "1.0.62",
+  "versionCode": 63,
+  "versionName": "1.0.63",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "完场列表重排版+补真实亚盘赔率：水位三格等宽对齐、半场比分并入比分列，完场行从yazhiajax补终盘主水/客水(79场补76场)，跟随亚盘公司设置"
+  "notes": "比赛列表四项优化：卡片加描边+11dp间隔分界清晰；第三行左右各半(亚盘主水|盘口|客水 + 大小球大球水|盘口|小球水)；完字胶囊对称居中不偏；半场比分改为与全场同轴的紧凑胶囊。大小球终盘水位/盘口由daxiaoajax并发补齐，跟随大小球公司设置"
 }
