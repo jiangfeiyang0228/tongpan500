@@ -1,6 +1,6 @@
 {
-  "versionCode": 63,
-  "versionName": "1.0.63",
+  "versionCode": 64,
+  "versionName": "1.0.64",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "比赛列表四项优化：卡片加描边+11dp间隔分界清晰；第三行左右各半(亚盘主水|盘口|客水 + 大小球大球水|盘口|小球水)；完字胶囊对称居中不偏；半场比分改为与全场同轴的紧凑胶囊。大小球终盘水位/盘口由daxiaoajax并发补齐，跟随大小球公司设置"
+  "notes": "修复未完场盘口不显示：采集范围从只完场扩到全部有效状态行(完场/未完/进行中)，未完场用yazhiajax/daxiaoajax即时盘；含未完场的列表缓存TTL压到45s、水位60s TTL、手动更新force整批重抓；改期/取消跳过"
 }
