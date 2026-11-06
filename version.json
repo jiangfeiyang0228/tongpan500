@@ -1,6 +1,6 @@
 {
-  "versionCode": 81,
-  "versionName": "1.0.81",
+  "versionCode": 82,
+  "versionName": "1.0.82",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复随机比赛无盘口：EdgeOne 567/503 临时拦截改为自愈重放，不再写死空界面；恢复宽限期避免连续503反复续冷却"
+  "notes": "修复回看历史比赛完场比分和快速切日期列表空白：冷却按站点隔离，列表抓取失败不写空缓存"
 }
