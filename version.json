@@ -1,6 +1,6 @@
 {
-  "versionCode": 87,
-  "versionName": "1.0.87",
+  "versionCode": 88,
+  "versionName": "1.0.88",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "去掉卡片内重复公司名行，公司切换行补亚盘/大小球/欧盘前缀，欧盘赔率行跟随所选公司并统一样式"
+  "notes": "修复欧盘赔率按公司取值，切换公司显示对应初盘/终盘欧赔（ouzhi.json 时间线），升级缓存盐"
 }
