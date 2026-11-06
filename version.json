@@ -1,6 +1,6 @@
 {
-  "versionCode": 79,
-  "versionName": "1.0.79",
+  "versionCode": 80,
+  "versionName": "1.0.80",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "根治高强度获取不到数据v2:全局请求闸门(8QPS/6并发)+列表水位封顶60+503/验证页20s冷却且停止火上浇油;stat_ajax点球次要接口503不再连累全局冷却;详情页优先穿透;高强度连开多场三同盘接口全抓取成功,不再整场全空"
+  "notes": "根治高强度无数据v3:Updater多源取最大版本号,免疫raw CDN滞后导致有新版不提示;全局闸门+列表封顶60+503冷却+stat_ajax豁免+详情页优先穿透不变"
 }
