@@ -1,6 +1,6 @@
 {
-  "versionCode": 77,
-  "versionName": "1.0.77",
+  "versionCode": 78,
+  "versionName": "1.0.78",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "整场秒开补全:公司选择列表(odds)也按fid持久化缓存,二次打开连Resolver/探12家都不跑,真正0网络;主stats整场缓存+完场永久/未完场90s+换公司失效+被拦兜底不变"
+  "notes": "根治高强度获取不到数据:全局请求闸门(8QPS/6并发)+列表水位单次任务封顶60(原736)+503/新版验证页识别触发20s冷却且停止火上浇油式重试;详情页优先请求穿透冷却仍限速,看过的比赛仍走整场缓存秒开;列表/同盘/时间线冷却期复用缓存兜底,不再把整站打进503后全盘无盘口"
 }
