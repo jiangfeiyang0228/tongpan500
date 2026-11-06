@@ -1,6 +1,6 @@
 {
-  "versionCode": 88,
-  "versionName": "1.0.88",
+  "versionCode": 89,
+  "versionName": "1.0.89",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复欧盘赔率按公司取值，切换公司显示对应初盘/终盘欧赔（ouzhi.json 时间线），升级缓存盐"
+  "notes": "优化手机端多盘口详情加载速度：按盘口抓最少 timeline、2~3 路并发、复用 vsdate 删补请求、默认路径直连 fid、二次进入命中整场缓存"
 }
