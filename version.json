@@ -1,6 +1,6 @@
 {
-  "versionCode": 80,
-  "versionName": "1.0.80",
+  "versionCode": 81,
+  "versionName": "1.0.81",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "根治高强度无数据v3:Updater多源取最大版本号,免疫raw CDN滞后导致有新版不提示;全局闸门+列表封顶60+503冷却+stat_ajax豁免+详情页优先穿透不变"
+  "notes": "修复随机比赛无盘口：EdgeOne 567/503 临时拦截改为自愈重放，不再写死空界面；恢复宽限期避免连续503反复续冷却"
 }
