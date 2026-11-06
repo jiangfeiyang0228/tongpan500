@@ -1,6 +1,6 @@
 {
-  "versionCode": 86,
-  "versionName": "1.0.86",
+  "versionCode": 87,
+  "versionName": "1.0.87",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "优化比赛明细卡片：公司切换胶囊整合进卡片内部，消除中间断层，单公司时隐藏切换条"
+  "notes": "去掉卡片内重复公司名行，公司切换行补亚盘/大小球/欧盘前缀，欧盘赔率行跟随所选公司并统一样式"
 }
