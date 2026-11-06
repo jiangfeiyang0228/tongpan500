@@ -1,6 +1,6 @@
 {
-  "versionCode": 85,
-  "versionName": "1.0.85",
+  "versionCode": 86,
+  "versionName": "1.0.86",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "比赛明细每个盘口支持多公司选择与卡片内切换，公司名去掉星号补齐完整名称"
+  "notes": "优化比赛明细卡片：公司切换胶囊整合进卡片内部，消除中间断层，单公司时隐藏切换条"
 }
