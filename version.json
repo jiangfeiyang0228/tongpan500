@@ -1,6 +1,6 @@
 {
-  "versionCode": 73,
-  "versionName": "1.0.73",
+  "versionCode": 74,
+  "versionName": "1.0.74",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "点球改用500站3.gif小图标按数量显示；修复大小球/欧盘明细红牌发白、点球为文字（Spannable被String.valueOf拍平），三盘口渲染统一"
+  "notes": "1. 大小球走水判定修复\n2. 明细逐场分割线\n3. 半场比分 4 路并行 + 预热\n4. 远程更新"
 }
