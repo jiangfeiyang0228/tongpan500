@@ -1,6 +1,6 @@
 {
-  "versionCode": 84,
-  "versionName": "1.0.84",
+  "versionCode": 85,
+  "versionName": "1.0.85",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "比赛明细加载提速：详情主链路享有Gate优先并发通道不被后台预热抢占，完场页预热延迟到主统计产出后再后台放行并收敛并发，消除503冷却导致的整场重算"
+  "notes": "比赛明细每个盘口支持多公司选择与卡片内切换，公司名去掉星号补齐完整名称"
 }
