@@ -2,5 +2,5 @@
   "versionCode": 74,
   "versionName": "1.0.74",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1. 大小球走水判定修复\n2. 明细逐场分割线\n3. 半场比分 4 路并行 + 预热\n4. 远程更新"
+  "notes": "半场比分与红牌改完场页整批预取：prefetch拉页即整批解析进CACHE/REDS并主动回填UI，与点球stat_ajax快路对齐；去掉dayRowAround的140ms闸门、load增缓存硬命中、缓存淘汰改trimCache防止整表清空；打开明细即显示，数据源仍为wanchang权威值"
 }
