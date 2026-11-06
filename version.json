@@ -1,6 +1,6 @@
 {
-  "versionCode": 74,
-  "versionName": "1.0.74",
+  "versionCode": 75,
+  "versionName": "1.0.75",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "半场比分与红牌改完场页整批预取：prefetch拉页即整批解析进CACHE/REDS并主动回填UI，与点球stat_ajax快路对齐；去掉dayRowAround的140ms闸门、load增缓存硬命中、缓存淘汰改trimCache防止整表清空；打开明细即显示，数据源仍为wanchang权威值"
+  "notes": "同盘历史加持久化缓存：看过的比赛不再重抓(内存+磁盘,右上角force刷新仍生效)；高强度被EdgeOne挑战/限流时识别JS挑战页解cookie重试、非法响应不写缓存、网络失败用上次成功值兜底,杜绝0场/解析0行;三盘口sameajax与HTML赛程页取数分离"
 }
