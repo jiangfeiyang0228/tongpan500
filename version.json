@@ -1,6 +1,6 @@
 {
-  "versionCode": 76,
-  "versionName": "1.0.76",
+  "versionCode": 77,
+  "versionName": "1.0.77",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "整场统计结果持久化缓存:看过的比赛二次进入0网络秒开(连probe/timeline盘口时间线都跳过,不再重复抓取);完场永久缓存/未完场90秒保鲜实时水位;换公司自动失效,force手动刷新仍强制重抓;只缓存真有数据的结果,被拦时空结果用上次成功值兜底,杜绝0场"
+  "notes": "整场秒开补全:公司选择列表(odds)也按fid持久化缓存,二次打开连Resolver/探12家都不跑,真正0网络;主stats整场缓存+完场永久/未完场90s+换公司失效+被拦兜底不变"
 }
