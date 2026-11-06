@@ -1,6 +1,6 @@
 {
-  "versionCode": 83,
-  "versionName": "1.0.83",
+  "versionCode": 84,
+  "versionName": "1.0.84",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复回看九月等历史比赛完场比分显示为vs：列表页class=pk缺少盘口链接时也能取到全场比分；冷却按站点隔离，失败不写空缓存，快速切日期列表不再空白"
+  "notes": "比赛明细加载提速：详情主链路享有Gate优先并发通道不被后台预热抢占，完场页预热延迟到主统计产出后再后台放行并收敛并发，消除503冷却导致的整场重算"
 }
