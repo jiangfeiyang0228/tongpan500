@@ -1,6 +1,6 @@
 {
-  "versionCode": 75,
-  "versionName": "1.0.75",
+  "versionCode": 76,
+  "versionName": "1.0.76",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "同盘历史加持久化缓存：看过的比赛不再重抓(内存+磁盘,右上角force刷新仍生效)；高强度被EdgeOne挑战/限流时识别JS挑战页解cookie重试、非法响应不写缓存、网络失败用上次成功值兜底,杜绝0场/解析0行;三盘口sameajax与HTML赛程页取数分离"
+  "notes": "整场统计结果持久化缓存:看过的比赛二次进入0网络秒开(连probe/timeline盘口时间线都跳过,不再重复抓取);完场永久缓存/未完场90秒保鲜实时水位;换公司自动失效,force手动刷新仍强制重抓;只缓存真有数据的结果,被拦时空结果用上次成功值兜底,杜绝0场"
 }
