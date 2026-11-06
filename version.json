@@ -1,6 +1,6 @@
 {
-  "versionCode": 72,
-  "versionName": "1.0.72",
+  "versionCode": 73,
+  "versionName": "1.0.73",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "半场比分提速：完场页6线程并发；常规时间点球数量走stat_ajax全量快路，按主客队数在红牌旁标识；解EdgeOne挑战+503重试"
+  "notes": "点球改用500站3.gif小图标按数量显示；修复大小球/欧盘明细红牌发白、点球为文字（Spannable被String.valueOf拍平），三盘口渲染统一"
 }
