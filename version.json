@@ -1,6 +1,6 @@
 {
-  "versionCode": 105,
-  "versionName": "1.0.105",
+  "versionCode": 106,
+  "versionName": "1.0.106",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复同盘数据一律显示失败：去掉「60s 内撞过 567 就完全跳过」的过激判断（它会连解挑战机会都放弃），恢复正常的缓存->请求->解挑战流程；同盘确实被限流时，卡片改为明确提示「同盘数据限流中，稍后刷新」，不再误报「解析 0 行」"
+  "notes": "修复同盘详情限流：去掉同盘请求常态cache-buster回源风暴、Java带完整UA/Referer走canonical命中CDN、撞JSCHAL自动解cookie重放、辅助接口503不再连坐整场、赛程页硬封WebView浏览器栈兜底"
 }
