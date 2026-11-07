@@ -1,6 +1,6 @@
 {
-  "versionCode": 90,
-  "versionName": "1.0.90",
+  "versionCode": 91,
+  "versionName": "1.0.91",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复比赛列表盘口水位获取：force 不再清空缓存、缺口优先轮转补齐北单全量场次、磁盘缓存冷启动/风控冷却期兜底不再整屏空、后台温和续补避免请求风暴"
+  "notes": "同盘统计新增近50场/近半年/近一年范围切换（默认近50场）"
 }
