@@ -1,6 +1,6 @@
 {
-  "versionCode": 92,
-  "versionName": "1.0.92",
+  "versionCode": 93,
+  "versionName": "1.0.93",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "列表秒开+去重：冷启动用磁盘列表先出内容后台刷新、同签名6秒去重与并发合并、水位有界等待不再卡12秒；详情高强度失败：时间线磁盘兜底、半残结果不写永久缓存并自动重算"
+  "notes": "模拟投注页新增清理按钮：可按日期（整日注单）或按场次（整场注单）多选清理，带勾选计数与二次确认，清理后自动重画列表与标题计数"
 }
