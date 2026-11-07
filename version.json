@@ -1,6 +1,6 @@
 {
-  "versionCode": 96,
-  "versionName": "1.0.96",
+  "versionCode": 97,
+  "versionName": "1.0.97",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "竞彩列表排序：已完赛的比赛自动沉到最下方（组内仍按期号升序），未完/进行中的排在前面，不用往下滑找今晚的场次；北单排序保持不变"
+  "notes": "下滑刷新不再占大块位置：刷新期间收起「加载中…」占位（原来固定 200dp 高、垂直居中，会顶出大片空白），进度只由顶部标题体现；下拉 header 从 42/56dp 压到 22/40dp，展开上限从 1.5 倍收到 1.2 倍"
 }
