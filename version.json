@@ -1,6 +1,6 @@
 {
-  "versionCode": 100,
-  "versionName": "1.0.100",
+  "versionCode": 101,
+  "versionName": "1.0.101",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复切换应用后回到列表首页：MainActivity 补 launchMode=singleTask 与全量 configChanges（深色模式/字体缩放/分屏不再重建 Activity），并新增 ResumeState 记忆页面位置——列表/详情/投注三页分别记录，被系统回收重建后自动回到原页面（详情按 playId 找回同一场）"
+  "notes": "修复冷启动默认落在模拟投注页：ResumeState 增加 beginCreate——冷启动(savedInstanceState=null)强制回列表页，只有系统回收后重建才还原上次页面；同时修正 smali 条件跳转写反（if-eq 应为 if-ne）导致 pending=0 仍进入投注页的问题"
 }
