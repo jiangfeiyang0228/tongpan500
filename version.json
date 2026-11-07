@@ -2,5 +2,5 @@
   "versionCode": 106,
   "versionName": "1.0.106",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复同盘详情限流：去掉同盘请求常态cache-buster回源风暴、Java带完整UA/Referer走canonical命中CDN、撞JSCHAL自动解cookie重放、辅助接口503不再连坐整场、赛程页硬封WebView浏览器栈兜底"
+  "notes": "修复同盘详情限流：去掉同盘请求常态cache-buster回源风暴、Java带完整UA/Referer走canonical命中CDN、撞JSCHAL自动解cookie重放、辅助接口503不再连坐整场、赛程页硬封WebView浏览器栈兜底并修正HTML误判"
 }
