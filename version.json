@@ -1,6 +1,6 @@
 {
-  "versionCode": 101,
-  "versionName": "1.0.101",
+  "versionCode": 102,
+  "versionName": "1.0.102",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复冷启动默认落在模拟投注页：ResumeState 增加 beginCreate——冷启动(savedInstanceState=null)强制回列表页，只有系统回收后重建才还原上次页面；同时修正 smali 条件跳转写反（if-eq 应为 if-ne）导致 pending=0 仍进入投注页的问题"
+  "notes": "公司选择增加排序显示：每行显示序号 + 已选次序标记，顶部提供「常用顺序 / 按名称 / 已选优先」三种排序切换，已选行高亮并带选择次序，底部实时显示已选公司摘要（顺序即卡片顺序）"
 }
