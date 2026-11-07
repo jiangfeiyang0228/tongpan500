@@ -1,6 +1,6 @@
 {
-  "versionCode": 97,
-  "versionName": "1.0.97",
+  "versionCode": 98,
+  "versionName": "1.0.98",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "下滑刷新不再占大块位置：刷新期间收起「加载中…」占位（原来固定 200dp 高、垂直居中，会顶出大片空白），进度只由顶部标题体现；下拉 header 从 42/56dp 压到 22/40dp，展开上限从 1.5 倍收到 1.2 倍"
+  "notes": "大小球卡片去掉多余横杠：StatCard 里为「亚盘+大小球同卡」准备的那条 1.5dp 分隔线，在多公司分盘口模式下变成卡内孤立横线；现在不再加入布局，并在 CardPanel 里兜底收起子树中的细线，三张卡顶部结构统一"
 }
