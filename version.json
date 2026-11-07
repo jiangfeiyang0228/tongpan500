@@ -1,6 +1,6 @@
 {
-  "versionCode": 98,
-  "versionName": "1.0.98",
+  "versionCode": 99,
+  "versionName": "1.0.99",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "大小球卡片去掉多余横杠：StatCard 里为「亚盘+大小球同卡」准备的那条 1.5dp 分隔线，在多公司分盘口模式下变成卡内孤立横线；现在不再加入布局，并在 CardPanel 里兜底收起子树中的细线，三张卡顶部结构统一"
+  "notes": "修复连看多场后卡在「加载公司赔率…」：公司列表原先缓存未命中时会 Resolver.toFid + probe 12 家（24 次联网），连看几场后 Gate 冷却/令牌桶耗尽，单线程串行 + 20s 超时导致长时间卡死；现在主链路直接返回固定公司表（0 网络秒回），带盘口的版本降级为可选后台入口"
 }
