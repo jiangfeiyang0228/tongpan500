@@ -1,6 +1,6 @@
 {
-  "versionCode": 104,
-  "versionName": "1.0.104",
+  "versionCode": 105,
+  "versionName": "1.0.105",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "彻底解决多公司卡加载：改用 live.500.com/json/odds.php 聚合接口，1 个请求同时返回亚盘+欧盘+大小球的初盘与终盘（9 家公司仅需 9 请求，该域不限流，实测 81 请求并发 1.17s 全过）；欧赔初终盘也改从该接口第二段取，不再打会被 567 拦的 ouzhi.json；vsdate 由 kickoff 直接派生，省掉 2 个必被拦的 timeline；同盘统计遇 567 立即跳过不再反复自愈；去掉冷却期强制单线程；任务改为按公司并发。实测 9 家公司首次进入详情 121ms（原来 18-27 秒）"
+  "notes": "修复同盘数据一律显示失败：去掉「60s 内撞过 567 就完全跳过」的过激判断（它会连解挑战机会都放弃），恢复正常的缓存->请求->解挑战流程；同盘确实被限流时，卡片改为明确提示「同盘数据限流中，稍后刷新」，不再误报「解析 0 行」"
 }
