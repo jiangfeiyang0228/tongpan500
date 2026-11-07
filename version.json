@@ -1,6 +1,6 @@
 {
-  "versionCode": 94,
-  "versionName": "1.0.94",
+  "versionCode": 95,
+  "versionName": "1.0.95",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复下拉刷新不生效：PullRefresh 的 switch 表/位移基线 bug 导致 show 恒为 0 永远到不了触发线，改用 Java 版干净重写（顶部判定不再依赖 header 的负 paddingTop）；下拉/刷新按钮/更新统一走强刷链路，绕开 6 秒去重与磁盘缓存，真正刷新比分、状态与半场"
+  "notes": "修复刷新后上下滑不动：真正挂在列表上的是 Pull2，刷新结束却只复位了老 PullRefresh，导致 refreshing 永久为 true、MOVE 被吞掉滑不动；现在刷新成功/异常/回到列表页三处都同步复位 Pull2，并加 15 秒超时自愈、非顶部起手不接管手势、触发后立即收起 header 不再把列表顶下去"
 }
