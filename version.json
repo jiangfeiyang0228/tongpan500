@@ -1,6 +1,6 @@
 {
-  "versionCode": 91,
-  "versionName": "1.0.91",
+  "versionCode": 92,
+  "versionName": "1.0.92",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "同盘统计新增近50场/近半年/近一年范围切换（默认近50场）"
+  "notes": "列表秒开+去重：冷启动用磁盘列表先出内容后台刷新、同签名6秒去重与并发合并、水位有界等待不再卡12秒；详情高强度失败：时间线磁盘兜底、半残结果不写永久缓存并自动重算"
 }
