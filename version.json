@@ -1,6 +1,6 @@
 {
-  "versionCode": 95,
-  "versionName": "1.0.95",
+  "versionCode": 96,
+  "versionName": "1.0.96",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复刷新后上下滑不动：真正挂在列表上的是 Pull2，刷新结束却只复位了老 PullRefresh，导致 refreshing 永久为 true、MOVE 被吞掉滑不动；现在刷新成功/异常/回到列表页三处都同步复位 Pull2，并加 15 秒超时自愈、非顶部起手不接管手势、触发后立即收起 header 不再把列表顶下去"
+  "notes": "竞彩列表排序：已完赛的比赛自动沉到最下方（组内仍按期号升序），未完/进行中的排在前面，不用往下滑找今晚的场次；北单排序保持不变"
 }
