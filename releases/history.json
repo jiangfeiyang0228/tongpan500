@@ -1,7 +1,16 @@
 {
-  "latest": 112,
-  "count": 86,
+  "latest": 113,
+  "count": 87,
   "versions": [
+    {
+      "versionCode": 113,
+      "versionName": "1.0.113",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v113.apk",
+      "notes": "1.0.113 场均进球改为跟随亚盘实际盘口变动分类，直接拼接在各分类名称后（如同初盘·平手 2.50球），不再独立成行、不再固定三标签",
+      "sha256": "f65511a8dfe11aca95f26f05f36ad74a81ec3aaef0a5b9c06e825885bf79defd",
+      "size": 214356,
+      "time": "2026-11-08 18:42:43"
+    },
     {
       "versionCode": 112,
       "versionName": "1.0.112",
@@ -947,5 +956,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-08 17:38:26"
+  "updated": "2026-11-08 18:42:48"
 }
