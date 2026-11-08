@@ -1,7 +1,16 @@
 {
-  "latest": 123,
-  "count": 96,
+  "latest": 124,
+  "count": 97,
   "versions": [
+    {
+      "versionCode": 124,
+      "versionName": "1.0.124",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v124.apk",
+      "notes": "1.0.124 修复比赛详情偶发String.length空指针与高强度OOM：optString空值链路统一nz空安全；完场页内存缓存统一LRU淘汰(64→16)、磁盘回源不再裸写撑爆堆；httpOnce加4MB响应上限并catch Throwable兜住OutOfMemoryError，ht-day线程池不死",
+      "sha256": "4f3e420f3f95173972181505ed20d9e4b5fd26bebd6c0f7efcbf1021d2ae4773",
+      "size": 226644,
+      "time": "2026-11-09 02:25:07"
+    },
     {
       "versionCode": 123,
       "versionName": "1.0.123",
@@ -1037,5 +1046,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-09 01:59:02"
+  "updated": "2026-11-09 02:25:12"
 }
