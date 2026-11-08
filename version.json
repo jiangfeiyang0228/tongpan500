@@ -1,6 +1,6 @@
 {
-  "versionCode": 110,
-  "versionName": "1.0.110",
+  "versionCode": 111,
+  "versionName": "1.0.111",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.110 修复比赛列表赔率显示：水位缓存 stale 兜底必回填、缓存/磁盘列表返回前重补赔率、官网同盘参数页不连累全局风控、参数页 fid 级缓存、失败缺口后台自动续补并支持卡片渲染兜底"
+  "notes": "1. 大小球走水判定修复\n2. 明细逐场分割线\n3. 半场比分 4 路并行 + 预热\n4. 远程更新"
 }
