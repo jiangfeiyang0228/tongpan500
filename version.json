@@ -1,6 +1,6 @@
 {
-  "versionCode": 122,
-  "versionName": "1.0.122",
+  "versionCode": 123,
+  "versionName": "1.0.123",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.121 修复各盘口初盘历史错桶：官网三页被挡时用 timeline 逐公司补真实初盘(平博大小球0.99/2.5/3/0.81)，整场缓存加 schema:yp121 强制旧错桶统计失效"
+  "notes": "1.0.123 修复同盘统计范围不生效：时间窗口内0场时不再降级倒出全量历史，严格按cutoff过滤(近50/近半年/近一年分别50/36/76场)，0场如实标注所选时间范围内无同盘，缓存加schema:range123强制重算"
 }
