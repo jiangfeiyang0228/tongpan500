@@ -1,7 +1,16 @@
 {
-  "latest": 117,
-  "count": 91,
+  "latest": 118,
+  "count": 92,
   "versions": [
+    {
+      "versionCode": 118,
+      "versionName": "1.0.118",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v118.apk",
+      "notes": "1.0.118 详情页新增「重抓」按钮：强制绕过整场缓存/同盘ajax缓存重新联网抓取当前比赛并回写新值，解决首次没抓到就一直读缓存无数据；点击有toast与抓取中反馈，3秒防连点",
+      "sha256": "2d96f7809d478f362c5da4840f06cf7659e969b533b4b5dbdceda440b905922d",
+      "size": 214356,
+      "time": "2026-11-08 22:59:50"
+    },
     {
       "versionCode": 117,
       "versionName": "1.0.117",
@@ -992,5 +1001,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-08 22:38:01"
+  "updated": "2026-11-08 22:59:55"
 }
