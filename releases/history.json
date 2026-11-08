@@ -1,7 +1,16 @@
 {
-  "latest": 115,
-  "count": 89,
+  "latest": 116,
+  "count": 90,
   "versions": [
+    {
+      "versionCode": 116,
+      "versionName": "1.0.116",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v116.apk",
+      "notes": "1.0.116 场均进球单元随实际分类行增减，盘口没变只显示同初盘/同变动",
+      "sha256": "1a7a543dd3c89998fcf08d80cfb7d5b8c3099cab1ecf445b3806706cb8a9b620",
+      "size": 214356,
+      "time": "2026-11-08 21:20:17"
+    },
     {
       "versionCode": 115,
       "versionName": "1.0.115",
@@ -974,5 +983,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-08 21:06:42"
+  "updated": "2026-11-08 21:20:22"
 }
