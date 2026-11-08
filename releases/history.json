@@ -6,7 +6,7 @@
       "versionCode": 111,
       "versionName": "1.0.111",
       "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v111.apk",
-      "notes": "1. 大小球走水判定修复\n2. 明细逐场分割线\n3. 半场比分 4 路并行 + 预热\n4. 远程更新",
+      "notes": "1.0.111 发布流程改造：每次发版保留不可覆盖的历史版本归档 + history.json 清单（APK 内容与 1.0.110 相同）",
       "sha256": "03886c1f1b977b0fe6e449008eb53e42372f012ec5aa2b671774dc51a35b4c81",
       "size": 210260,
       "time": "2026-11-08 15:10:32"
