@@ -1,6 +1,6 @@
 {
-  "versionCode": 117,
-  "versionName": "1.0.117",
+  "versionCode": 118,
+  "versionName": "1.0.118",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.117 修复同盘详情获取不到：亚盘同盘查询 cp 短名(受半/一)还原为官网完整中文名(受半球/一球)，sameajax 不再回 3B 空导致 0 场；官网 fenxi 页点选验证不再影响同盘数据，去除无效重试提速"
+  "notes": "1.0.118 详情页新增「重抓」按钮：强制绕过整场缓存/同盘ajax缓存重新联网抓取当前比赛并回写新值，解决首次没抓到就一直读缓存无数据；点击有toast与抓取中反馈，3秒防连点"
 }
