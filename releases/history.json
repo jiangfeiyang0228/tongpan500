@@ -1,7 +1,16 @@
 {
-  "latest": 122,
-  "count": 95,
+  "latest": 123,
+  "count": 96,
   "versions": [
+    {
+      "versionCode": 123,
+      "versionName": "1.0.123",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v123.apk",
+      "notes": "1.0.123 修复同盘统计范围不生效：时间窗口内0场时不再降级倒出全量历史，严格按cutoff过滤(近50/近半年/近一年分别50/36/76场)，0场如实标注所选时间范围内无同盘，缓存加schema:range123强制重算",
+      "sha256": "a389a62163dc7808136d97937dc504c4f2c190b50ffe1511b61ee443ab519c24",
+      "size": 226644,
+      "time": "2026-11-09 01:58:58"
+    },
     {
       "versionCode": 122,
       "versionName": "1.0.122",
@@ -1028,5 +1037,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-09 01:31:17"
+  "updated": "2026-11-09 01:59:02"
 }
