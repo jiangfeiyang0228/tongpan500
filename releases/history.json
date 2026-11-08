@@ -1,7 +1,16 @@
 {
-  "latest": 119,
-  "count": 93,
+  "latest": 120,
+  "count": 94,
   "versions": [
+    {
+      "versionCode": 120,
+      "versionName": "1.0.120",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v120.apk",
+      "notes": "1.0.120 修复各盘口初盘历史数据错桶：官网 fenxi 页被 EdgeOne 挡时改用畅通的 inc 时间线逐公司真实初盘（亚盘/大小球）+ json/ouzhi.php 欧赔，替代 live 聚合的 Bet365 代表值；官网三页全挡负缓存 60s 免等；skill 同步不再刷全局风控",
+      "sha256": "0468f79cce30678a7cbae4e52baeea02e8fcea09a49f55592af91f483e26c551",
+      "size": 226644,
+      "time": "2026-11-09 01:17:29"
+    },
     {
       "versionCode": 119,
       "versionName": "1.0.119",
@@ -1010,5 +1019,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-08 23:17:55"
+  "updated": "2026-11-09 01:17:34"
 }
