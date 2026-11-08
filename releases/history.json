@@ -1,7 +1,16 @@
 {
-  "latest": 114,
-  "count": 88,
+  "latest": 115,
+  "count": 89,
   "versions": [
+    {
+      "versionCode": 115,
+      "versionName": "1.0.115",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v115.apk",
+      "notes": "1.0.115 最新水位改用官网即时盘，补齐亚盘四类场均进球显示",
+      "sha256": "e9965d0f3ee6511b169ba447af3a1b518737310eeb7a1b10e2a3162b7c988e8e",
+      "size": 214356,
+      "time": "2026-11-08 21:06:37"
+    },
     {
       "versionCode": 114,
       "versionName": "1.0.114",
@@ -965,5 +974,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-08 19:07:15"
+  "updated": "2026-11-08 21:06:42"
 }
