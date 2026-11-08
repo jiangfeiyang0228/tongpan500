@@ -1,6 +1,6 @@
 {
-  "versionCode": 123,
-  "versionName": "1.0.123",
+  "versionCode": 124,
+  "versionName": "1.0.124",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.123 修复同盘统计范围不生效：时间窗口内0场时不再降级倒出全量历史，严格按cutoff过滤(近50/近半年/近一年分别50/36/76场)，0场如实标注所选时间范围内无同盘，缓存加schema:range123强制重算"
+  "notes": "1.0.124 修复比赛详情偶发String.length空指针与高强度OOM：optString空值链路统一nz空安全；完场页内存缓存统一LRU淘汰(64→16)、磁盘回源不再裸写撑爆堆；httpOnce加4MB响应上限并catch Throwable兜住OutOfMemoryError，ht-day线程池不死"
 }
