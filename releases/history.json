@@ -1,7 +1,16 @@
 {
-  "latest": 116,
-  "count": 90,
+  "latest": 117,
+  "count": 91,
   "versions": [
+    {
+      "versionCode": 117,
+      "versionName": "1.0.117",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v117.apk",
+      "notes": "1.0.117 修复同盘详情获取不到：亚盘同盘查询 cp 短名(受半/一)还原为官网完整中文名(受半球/一球)，sameajax 不再回 3B 空导致 0 场；官网 fenxi 页点选验证不再影响同盘数据，去除无效重试提速",
+      "sha256": "168ebcef6fa78a03f8f37e9e7553860baaa2293f8f7bfeba83d8ae1c2e6f60db",
+      "size": 214356,
+      "time": "2026-11-08 22:37:57"
+    },
     {
       "versionCode": 116,
       "versionName": "1.0.116",
@@ -983,5 +992,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-08 21:20:22"
+  "updated": "2026-11-08 22:38:01"
 }
