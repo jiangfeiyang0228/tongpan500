@@ -1,6 +1,6 @@
 {
-  "versionCode": 115,
-  "versionName": "1.0.115",
+  "versionCode": 116,
+  "versionName": "1.0.116",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.115 最新水位改用官网即时盘，补齐亚盘四类场均进球显示"
+  "notes": "1.0.116 场均进球单元随实际分类行增减，盘口没变只显示同初盘/同变动"
 }
