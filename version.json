@@ -1,6 +1,6 @@
 {
-  "versionCode": 118,
-  "versionName": "1.0.118",
+  "versionCode": 119,
+  "versionName": "1.0.119",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.118 详情页新增「重抓」按钮：强制绕过整场缓存/同盘ajax缓存重新联网抓取当前比赛并回写新值，解决首次没抓到就一直读缓存无数据；点击有toast与抓取中反馈，3秒防连点"
+  "notes": "1.0.119 修复亚盘/大小球同盘获取不到：近半年/近一年窗口内0场但官网确有历史时自动降级按数量展示全部历史，不再误报『该初盘无历史同盘/0场』；去掉 dropSelf 二次时间过滤把降级数据打回0场的问题；加缓存盐 yp119 强制旧0场缓存重算"
 }
