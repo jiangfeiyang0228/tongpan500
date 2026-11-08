@@ -1,7 +1,16 @@
 {
-  "latest": 118,
-  "count": 92,
+  "latest": 119,
+  "count": 93,
   "versions": [
+    {
+      "versionCode": 119,
+      "versionName": "1.0.119",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v119.apk",
+      "notes": "1.0.119 修复亚盘/大小球同盘获取不到：近半年/近一年窗口内0场但官网确有历史时自动降级按数量展示全部历史，不再误报『该初盘无历史同盘/0场』；去掉 dropSelf 二次时间过滤把降级数据打回0场的问题；加缓存盐 yp119 强制旧0场缓存重算",
+      "sha256": "6fbcd0dc081823186e71d46595b900a7769d702a8f4a9637f5285023da3ab2e3",
+      "size": 214356,
+      "time": "2026-11-08 23:17:50"
+    },
     {
       "versionCode": 118,
       "versionName": "1.0.118",
@@ -1001,5 +1010,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-08 22:59:55"
+  "updated": "2026-11-08 23:17:55"
 }
