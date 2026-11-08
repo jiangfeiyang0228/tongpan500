@@ -1,6 +1,6 @@
 {
-  "versionCode": 112,
-  "versionName": "1.0.112",
+  "versionCode": 113,
+  "versionName": "1.0.113",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.112 亚盘同盘数据增加平均进球数：同初盘、同变动、同盘口分别统计场均进球"
+  "notes": "1.0.113 场均进球改为跟随亚盘实际盘口变动分类，直接拼接在各分类名称后（如同初盘·平手 2.50球），不再独立成行、不再固定三标签"
 }
