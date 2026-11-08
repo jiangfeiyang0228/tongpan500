@@ -1,7 +1,16 @@
 {
-  "latest": 120,
-  "count": 94,
+  "latest": 122,
+  "count": 95,
   "versions": [
+    {
+      "versionCode": 122,
+      "versionName": "1.0.122",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v122.apk",
+      "notes": "1.0.121 修复各盘口初盘历史错桶：官网三页被挡时用 timeline 逐公司补真实初盘(平博大小球0.99/2.5/3/0.81)，整场缓存加 schema:yp121 强制旧错桶统计失效",
+      "sha256": "8159d6a323bcf302be440f0e3644ad6b43cc105a9ce6248f255f516d507da52b",
+      "size": 226644,
+      "time": "2026-11-09 01:31:12"
+    },
     {
       "versionCode": 120,
       "versionName": "1.0.120",
@@ -1019,5 +1028,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-09 01:17:34"
+  "updated": "2026-11-09 01:31:17"
 }
