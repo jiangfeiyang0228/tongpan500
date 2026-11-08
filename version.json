@@ -1,6 +1,6 @@
 {
-  "versionCode": 106,
-  "versionName": "1.0.106",
+  "versionCode": 107,
+  "versionName": "1.0.107",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "修复同盘详情限流：去掉同盘请求常态cache-buster回源风暴、Java带完整UA/Referer走canonical命中CDN、撞JSCHAL自动解cookie重放、辅助接口503不再连坐整场、赛程页硬封WebView浏览器栈兜底并修正HTML误判"
+  "notes": "1.0.107 修复首次详情失败后不重抓：失败/限流/半残结果不再写入整场缓存，命中坏缓存自动重抓；限流标记改为按同盘请求真实失败12s短期判定，去掉全局60秒连坐误标；官网确无历史不再误判半残"
 }
