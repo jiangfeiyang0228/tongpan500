@@ -1,6 +1,6 @@
 {
-  "versionCode": 109,
-  "versionName": "1.0.109",
+  "versionCode": 110,
+  "versionName": "1.0.110",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.109 彻底修复同盘详情参数错配：亚盘/大小球/欧盘历史同盘统一改用 500 官网同盘页(yazhi/daxiao/ouzhi fenxi 页)的 _same.php 初盘参数，取代 live 聚合代表盘口；修复町田泽维等场次误判「该初盘无历史同盘/解析0行」；官网页并发抓取+换盐重试；刷新整场缓存盐"
+  "notes": "1.0.110 修复比赛列表赔率显示：水位缓存 stale 兜底必回填、缓存/磁盘列表返回前重补赔率、官网同盘参数页不连累全局风控、参数页 fid 级缓存、失败缺口后台自动续补并支持卡片渲染兜底"
 }
