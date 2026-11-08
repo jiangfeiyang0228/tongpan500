@@ -1,7 +1,18 @@
 {
-  "latest": 66,
-  "count": 46,
+  "latest": 65,
+  "count": 47,
   "versions": [
+    {
+      "versionCode": 65,
+      "versionName": "1.0.65",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v65.apk",
+      "notes": "version 1.0.65 (65)",
+      "sha256": "ed056cf60b95bddc4cf22a94a91ba08af121e709e97b452d055915ea306a91a4",
+      "size": 152916,
+      "time": "2026-11-08 15:18:54",
+      "sourceCommit": "cb0a0e8831bec7a00ae8ba8156c3518870a74f2b",
+      "backfilled": true
+    },
     {
       "versionCode": 66,
       "versionName": "1.0.66",
@@ -509,5 +520,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-08 15:18:47"
+  "updated": "2026-11-08 15:18:55"
 }
