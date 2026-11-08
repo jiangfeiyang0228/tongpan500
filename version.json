@@ -1,6 +1,6 @@
 {
-  "versionCode": 116,
-  "versionName": "1.0.116",
+  "versionCode": 117,
+  "versionName": "1.0.117",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.116 场均进球单元随实际分类行增减，盘口没变只显示同初盘/同变动"
+  "notes": "1.0.117 修复同盘详情获取不到：亚盘同盘查询 cp 短名(受半/一)还原为官网完整中文名(受半球/一球)，sameajax 不再回 3B 空导致 0 场；官网 fenxi 页点选验证不再影响同盘数据，去除无效重试提速"
 }
