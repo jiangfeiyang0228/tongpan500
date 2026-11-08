@@ -6,11 +6,13 @@
       "versionCode": 111,
       "versionName": "1.0.111",
       "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v111.apk",
-      "notes": "1.0.111 发布流程改造：每次发版保留不可覆盖的历史版本归档 + history.json 清单（APK 内容与 1.0.110 相同）",
+      "notes": "version 1.0.111 (111)",
       "sha256": "03886c1f1b977b0fe6e449008eb53e42372f012ec5aa2b671774dc51a35b4c81",
       "size": 210260,
-      "time": "2026-11-08 15:10:32"
+      "time": "2026-11-08 15:12:36",
+      "sourceCommit": "0353c487bc59fee591674db991305df0316a86c7",
+      "backfilled": true
     }
   ],
-  "updated": "2026-11-08 15:10:36"
+  "updated": "2026-11-08 15:12:37"
 }
