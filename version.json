@@ -1,6 +1,6 @@
 {
-  "versionCode": 119,
-  "versionName": "1.0.119",
+  "versionCode": 120,
+  "versionName": "1.0.120",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.119 修复亚盘/大小球同盘获取不到：近半年/近一年窗口内0场但官网确有历史时自动降级按数量展示全部历史，不再误报『该初盘无历史同盘/0场』；去掉 dropSelf 二次时间过滤把降级数据打回0场的问题；加缓存盐 yp119 强制旧0场缓存重算"
+  "notes": "1.0.120 修复各盘口初盘历史数据错桶：官网 fenxi 页被 EdgeOne 挡时改用畅通的 inc 时间线逐公司真实初盘（亚盘/大小球）+ json/ouzhi.php 欧赔，替代 live 聚合的 Bet365 代表值；官网三页全挡负缓存 60s 免等；skill 同步不再刷全局风控"
 }
