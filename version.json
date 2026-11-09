@@ -1,6 +1,6 @@
 {
-  "versionCode": 126,
-  "versionName": "1.0.126",
+  "versionCode": 127,
+  "versionName": "1.0.127",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.126 修复比赛明细按终盘误判：同初盘分类的统计/明细/展开全部改按本场初盘盘口结算赢走输，同变动/同盘口/同水位/终盘谱系仍按各场终盘；亚盘与大小球对称处理，明细第二行仍显示该场终盘盘口；加缓存盐强制重算"
+  "notes": "1.0.127 修复终盘盘口滞后：官网fenxi三页被挡时用畅通timeline的curWin/curHandicap/curLose覆盖meta.live/dxLive，亚盘大小球对称修正顶部最新盘口、走势和同盘统计口径；加缓存盐强制重算，保留老版本"
 }
