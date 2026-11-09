@@ -1,6 +1,6 @@
 {
-  "versionCode": 129,
-  "versionName": "1.0.129",
+  "versionCode": 130,
+  "versionName": "1.0.130",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "比赛详情新增亚盘终盘对比模式（多家公司各取各的终盘·同盘口胜率·可点明细·全局可切回）"
+  "notes": "对比模式重做：公司独立选择并可按需抓取、对比页只保留亚盘、新增汇总可视化与赢走输占比条"
 }
