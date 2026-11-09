@@ -1,6 +1,6 @@
 {
-  "versionCode": 127,
-  "versionName": "1.0.127",
+  "versionCode": 128,
+  "versionName": "1.0.128",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.127 修复终盘盘口滞后：官网fenxi三页被挡时用畅通timeline的curWin/curHandicap/curLose覆盖meta.live/dxLive，亚盘大小球对称修正顶部最新盘口、走势和同盘统计口径；加缓存盐强制重算，保留老版本"
+  "notes": "1.0.128 修复EdgeOne边缘缓存空响应污染终盘数据: 同盘空响应改用hl换盐强制回源(Java+WebView双路), 拒绝把0场固化; 整场缓存加盐edgehit128强制重算"
 }
