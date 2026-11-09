@@ -1,7 +1,16 @@
 {
-  "latest": 129,
-  "count": 102,
+  "latest": 130,
+  "count": 103,
   "versions": [
+    {
+      "versionCode": 130,
+      "versionName": "1.0.130",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v130.apk",
+      "notes": "对比模式重做：公司独立选择并可按需抓取、对比页只保留亚盘、新增汇总可视化与赢走输占比条",
+      "sha256": "4e8f815c1ccec0435411afec1189f897fd680342c0f3b91764c84e7d42cb80da",
+      "size": 234836,
+      "time": "2026-11-10 07:51:45"
+    },
     {
       "versionCode": 129,
       "versionName": "1.0.129",
@@ -1091,5 +1100,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-10 06:53:58"
+  "updated": "2026-11-10 07:51:50"
 }
