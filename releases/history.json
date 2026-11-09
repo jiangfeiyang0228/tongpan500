@@ -1,7 +1,16 @@
 {
-  "latest": 128,
-  "count": 101,
+  "latest": 129,
+  "count": 102,
   "versions": [
+    {
+      "versionCode": 129,
+      "versionName": "1.0.129",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v129.apk",
+      "notes": "比赛详情新增亚盘终盘对比模式（多家公司各取各的终盘·同盘口胜率·可点明细·全局可切回）",
+      "sha256": "bb5db33150cd913ae79951bc9a5f711c348a85c89cd1bd68e930220ecb758510",
+      "size": 230740,
+      "time": "2026-11-10 06:53:52"
+    },
     {
       "versionCode": 128,
       "versionName": "1.0.128",
@@ -1082,5 +1091,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-10 04:42:50"
+  "updated": "2026-11-10 06:53:58"
 }
