@@ -1,6 +1,6 @@
 {
-  "versionCode": 128,
-  "versionName": "1.0.128",
+  "versionCode": 129,
+  "versionName": "1.0.129",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/tongpan500.apk",
-  "notes": "1.0.128 修复EdgeOne边缘缓存空响应污染终盘数据: 同盘空响应改用hl换盐强制回源(Java+WebView双路), 拒绝把0场固化; 整场缓存加盐edgehit128强制重算"
+  "notes": "比赛详情新增亚盘终盘对比模式（多家公司各取各的终盘·同盘口胜率·可点明细·全局可切回）"
 }
