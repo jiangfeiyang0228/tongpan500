@@ -1,7 +1,16 @@
 {
-  "latest": 125,
-  "count": 98,
+  "latest": 126,
+  "count": 99,
   "versions": [
+    {
+      "versionCode": 126,
+      "versionName": "1.0.126",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v126.apk",
+      "notes": "1.0.126 修复比赛明细按终盘误判：同初盘分类的统计/明细/展开全部改按本场初盘盘口结算赢走输，同变动/同盘口/同水位/终盘谱系仍按各场终盘；亚盘与大小球对称处理，明细第二行仍显示该场终盘盘口；加缓存盐强制重算",
+      "sha256": "6c1128ebfebdc8fce48e6733185c7892b2147ab6fa77139d2bdc784a335b2583",
+      "size": 226644,
+      "time": "2026-11-09 21:32:16"
+    },
     {
       "versionCode": 125,
       "versionName": "1.0.125",
@@ -1055,5 +1064,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-09 17:26:01"
+  "updated": "2026-11-09 21:32:20"
 }
