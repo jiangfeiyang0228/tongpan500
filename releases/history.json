@@ -1,7 +1,16 @@
 {
-  "latest": 124,
-  "count": 97,
+  "latest": 125,
+  "count": 98,
   "versions": [
+    {
+      "versionCode": 125,
+      "versionName": "1.0.125",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v125.apk",
+      "notes": "1.0.125 大小球盘补齐场均进球单独一行：summarizeDaxiao照搬亚盘口径统计同初盘/同变动/同盘口/同水位四类全场场均进球，分类行内avgGoals同步补齐；WaterRow亚盘大小球共用渲染，加盐schema:dxavg125强制旧缓存重算",
+      "sha256": "40ba9252bdc1d50624b211871c89e7415320c183271a256d4404d33ae4285182",
+      "size": 226644,
+      "time": "2026-11-09 17:25:56"
+    },
     {
       "versionCode": 124,
       "versionName": "1.0.124",
@@ -1046,5 +1055,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-09 02:25:12"
+  "updated": "2026-11-09 17:26:01"
 }
