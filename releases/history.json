@@ -1,7 +1,16 @@
 {
-  "latest": 126,
-  "count": 99,
+  "latest": 127,
+  "count": 100,
   "versions": [
+    {
+      "versionCode": 127,
+      "versionName": "1.0.127",
+      "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/tongpan500/main/releases/archive/tongpan500-v127.apk",
+      "notes": "1.0.127 修复终盘盘口滞后：官网fenxi三页被挡时用畅通timeline的curWin/curHandicap/curLose覆盖meta.live/dxLive，亚盘大小球对称修正顶部最新盘口、走势和同盘统计口径；加缓存盐强制重算，保留老版本",
+      "sha256": "1f2f9cdfe70dc5e5e9795bf1760703d3279066b80c389ac6b4702ea21a39b725",
+      "size": 226644,
+      "time": "2026-11-10 00:57:49"
+    },
     {
       "versionCode": 126,
       "versionName": "1.0.126",
@@ -1064,5 +1073,5 @@
       "backfilled": true
     }
   ],
-  "updated": "2026-11-09 21:32:20"
+  "updated": "2026-11-10 00:57:56"
 }
